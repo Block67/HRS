@@ -81,21 +81,21 @@
       <div class="w-full flex flex-col lg:flex-row items-center justify-center">
         <LandingCryptoStatistic
           data-aos="fade-up"
-          title="🔥 Numéro de télephone "
+          title="Numéro de télephone signalé"
           :datasets="trendings"
           class="xl:border-r border-gray-200 lg:px-8"
         />
         <LandingCryptoStatistic
           data-aos="fade-up"
           data-aos-delay="150"
-          title="🚀 Adresse crypto"
+          title="Adresse crypto signalé"
           :datasets="topGainers"
           class="xl:border-r border-gray-200 lg:px-8"
         />
         <LandingCryptoStatistic
           data-aos="fade-up"
           data-aos-delay="300"
-          title="💎 Recently Added"
+          title="Plateforme ponzi signalé"
           :datasets="recents"
           class="lg:px-8"
         />
